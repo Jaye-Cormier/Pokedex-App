@@ -43,5 +43,20 @@ GalarPokemonList =[
         name: 'Inteleon',
         types: ['water'],
         weaknesses: ['grass']
+    },
+    {
+        name: 'Blipbug',
+        types: ['bug'],
+        weaknesses: ['fire', 'flying', 'rock']
+    },
+    {
+        name: 'Dottler',
+        types: ['bug', 'psychic'],
+        weaknesses: ['ghost', 'fire', 'flying', 'dark', 'rock', 'bug']
+    },
+    {
+        name: 'Orbeetle',
+        types: ['bug', 'psychic'],
+        weaknesses: ['ghost', 'fire', 'flying', 'dark', 'rock', 'bug']
     }
 ];

@@ -1,4 +1,4 @@
-GalarPokemonList =[
+let GalarPokemonList =[
     {
         name: 'Grookey',
         species: 'Chimp Pokemon',
@@ -84,3 +84,15 @@ GalarPokemonList =[
         height: .4
     }
 ];
+
+for (let i= 0; i < GalarPokemonList.length; i++) {
+    document.write('<div class="pokemon"><div class="pokemon-name">' + GalarPokemonList[i].name + '</div><br/>' 
+                + 'Species: ' + GalarPokemonList[i].species + '<br/>' 
+                + 'Types: ' + GalarPokemonList[i].types + '<br/>' 
+                + 'Height: ' + GalarPokemonList[i].height + 'm' + '<br/>');
+    if(GalarPokemonList[i].height > 2) {
+        document.write('<strong>' + GalarPokemonList[i].name + '</strong> is really tall!<br/>');
+        
+    }
+    document.write('<br/></div>');
+}
